@@ -307,4 +307,4 @@ SOC analysts use this to watch authentication logs and monitor ongoing activity.
 * less helps inspect large files.
 * tail -f enables real-time monitoring.
 
-These commands are foundational for Linux administration, SOC operations, incident response, and forensic investigations.
+These are the mainly used commands for file operations
