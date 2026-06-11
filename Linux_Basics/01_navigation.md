@@ -170,7 +170,7 @@ Provides a quick overview of file organization and can help identify suspicious 
 
 ---
 
-## Key Takeaways
+## Summary
 
 * pwd shows your current location.
 * ls displays directory contents.
