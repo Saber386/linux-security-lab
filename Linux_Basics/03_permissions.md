@@ -135,33 +135,41 @@ Execute (x) = 1
 ### 755
 So if the digit is 755 then 
 Owner = (4+3) .i.e r+w (Owner can read and write in this Document) 
+
 Group = (3+2) .i.e r+x (Group members can read and execute in this document) 
+
 Others = (3+2) .i.e r+x (Others can also read and execute in this document) 
 
 ```text
 rwxr-xr-x
 ```
 Almost never used
+
 ---
 
 ### 644
 
 So if the digit is 644 then
 Owner = (4+2) .i.e r+w (Owner can read and write in this document)
+
 Group = (4) .i.e r (Group members can only read this document)
+
 Others = (4) .i.e r (Others can only read this document)
 
 ```text
 rw-r--r--
 ```
 Common for text files.
+
 ---
 
 ### 700
 
 So if the digit is 700 then
 Owner = (4+2+1) .i.e r+w+x (Owner can read, write and execute this document)
+
 Group = (0) .i.e --- (Group members have no permissions)
+
 Others = (0) .i.e --- (Others have no permissions)
 
 ```text
@@ -170,6 +178,7 @@ rwx------
 Personal folders
 Security-related directories
 Hidden config directories
+
 ---
 
 ### 666
@@ -177,7 +186,9 @@ Hidden config directories
 So if the digit is 666 then
 
 Owner = (4+2) .i.e r+w (Owner can read and write in this document)
+
 Group = (4+2) .i.e r+w (Group members can read and write in this document)
+
 Others = (4+2) .i.e r+w (Others can read and write in this document)
 
 ```text
@@ -186,6 +197,7 @@ rw-rw-rw-
 Used occasionally for:
 Shared temporary files
 Testing
+
 ---
 
 # Symbolic Mode
