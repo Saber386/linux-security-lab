@@ -148,7 +148,7 @@ rm temp.txt
 
 Used carefully when removing temporary files or malicious artifacts.
 
-⚠️ Deleted files generally cannot be recovered easily.
+ Deleted files generally cannot be recovered easily.
 
 ---
 
