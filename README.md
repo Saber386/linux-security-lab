@@ -39,4 +39,35 @@ To build practical Linux skills that are directly applicable to cybersecurity en
 
 ---
 
+# Repo fileflow 
+
+```text
+
+Linux_Basics
+│
+├── 01_navigation.md
+├── 02_file_operations.md
+├── 03_permissions.md
+├── 04_users_and_groups.md
+├── 05_package_management.md
+├── 06_process_management.md
+├── 07_networking_basics.md
+├── 08_archiving_and_compression.md
+├── 09_shell_redirection.md
+├── 10_text_processing.md
+├── 11_bash_scripting.md
+├── 12_system_monitoring.md
+│
+├── cheatsheets
+│   ├── common_commands.md
+│   ├── networking_commands.md
+│   └── file_commands.md
+│
+├── screenshots
+│
+├── README.md
+└── LICENSE
+
+```
+
 Cybersecurity Student | Reliance Industries Cybersecurity Intern | Google Cybersecurity Professional Certificate
