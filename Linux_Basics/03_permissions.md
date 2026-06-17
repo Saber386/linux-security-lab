@@ -206,26 +206,84 @@ Testing
 
 ---
 
-# Symbolic Mode
+# Symbolic Mode in Linux
 
-Instead of numbers:
+Symbolic mode allows permissions to be modified using letters instead of numeric values.
 
-```bash
-chmod u+x script.sh
-```
-
-Adds execute permission for owner.
-
-Examples:
+Syntax:
 
 ```bash
-chmod g+w file.txt
-chmod o-r file.txt
-chmod u+x script.sh
+chmod [who][operator][permission] filename
 ```
+
+## Symbols
+
+### Who
+
+| Symbol | Meaning |
+|---------|---------|
+| u | User (Owner) |
+| g | Group |
+| o | Others |
+| a | All |
+
+### Operators
+
+| Symbol | Meaning |
+|---------|---------|
+| + | Add Permission |
+| - | Remove Permission |
+| = | Set Exact Permission |
+
+### Permissions
+
+| Symbol | Meaning |
+|---------|---------|
+| r | Read |
+| w | Write |
+| x | Execute |
 
 ---
 
+## Example
+
+Command:
+
+```bash
+chmod u+x script.sh
+```
+
+Breakdown:
+
+```text
+u = User (Owner)
++ = Add
+x = Execute
+```
+
+Meaning:
+
+> Add execute permission to the owner of the file.
+
+Before:
+
+```text
+-rw-r--r--
+```
+
+After:
+
+```text
+-rwxr--r--
+```
+
+The owner can now execute the file while all other permissions remain unchanged.
+
+---
+
+## Key Takeaway
+
+Symbolic mode is useful when you want to modify specific permissions without changing the entire permission set. Unlike numeric mode, it only affects the permissions specified in the command.
 # Changing Ownership
 
 ## chown
