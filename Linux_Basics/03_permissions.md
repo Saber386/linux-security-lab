@@ -108,11 +108,11 @@ chmod 755 script.sh
 | 1      | --x        |
 | 0      | ---        |
 
-666 
-|||
-|||__Others = 6
-||__Group = 6
-|__Owner = 6
+666
+
+|__Owner  = 6
+    |__Group  = 6
+        |__Others = 6
 
 Common examples:
 
