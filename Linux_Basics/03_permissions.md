@@ -281,9 +281,7 @@ The owner can now execute the file while all other permissions remain unchanged.
 
 ---
 
-## Key Takeaway
 
-Symbolic mode is useful when you want to modify specific permissions without changing the entire permission set. Unlike numeric mode, it only affects the permissions specified in the command.
 # Changing Ownership
 
 ## chown
