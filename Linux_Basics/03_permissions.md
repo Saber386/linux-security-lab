@@ -109,14 +109,13 @@ chmod 755 script.sh
 | 0      | ---        |
 
 ```text
+[Owner][Group][Others]
 
-666
-│
-├── Owner  = 6 = rw-
-│
-├── Group  = 6 = rw-
-│
-└── Others = 6 = rw-
+755
+│ │ │
+│ │ └─ Others
+│ └─── Group
+└───── Owner
 ```
 
 ---
