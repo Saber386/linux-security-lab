@@ -70,4 +70,4 @@ Linux_Basics
 
 ```
 
-Cybersecurity Student | Reliance Industries Cybersecurity Intern | Google Cybersecurity Professional Certificate
+
