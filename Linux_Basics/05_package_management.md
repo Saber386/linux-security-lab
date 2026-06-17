@@ -4,7 +4,7 @@
 
 Package Management is the process of installing, updating, removing, and managing software on a Linux system.
 
-Linux Mint uses **APT (Advanced Package Tool)** to manage software packages.
+Most of the Linux distros use **APT (Advanced Package Tool)** to manage software packages.
 
 APT automatically downloads software, installs dependencies, and keeps packages updated.
 
