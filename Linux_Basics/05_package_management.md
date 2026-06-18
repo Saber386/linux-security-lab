@@ -171,7 +171,7 @@ Package managers make it easy to install, update, and maintain security tools.
 
 # Key Takeaways
 
-* Linux Mint uses APT for package management.
+* Most of the Linux Distros uses APT for package management.
 * Packages contain software and required files.
 * APT automatically handles dependencies.
 * Common commands include:
