@@ -150,7 +150,9 @@ This produces a single compressed archive file.
 ## ZIP Archives
 
 ZIP is a common file format that's used to compress one or more files together into a single location. 
-Simply 
+
+Simply
+
 Zipping file  = Archieving + Compressing 
 
 ### Create ZIP Archive
