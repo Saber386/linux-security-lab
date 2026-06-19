@@ -222,7 +222,7 @@ Process management is important in cybersecurity because:
 
 ---
 
-# Key Takeaways
+# Summary
 
 - A process is a running program.
 - `ps` displays running processes.
