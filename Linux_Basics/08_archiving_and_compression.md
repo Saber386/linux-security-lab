@@ -149,7 +149,9 @@ This produces a single compressed archive file.
 
 ## ZIP Archives
 
-Linux also supports ZIP archives.
+ZIP is a common file format that's used to compress one or more files together into a single location. 
+Simply 
+Zipping file  = Archieving + Compressing 
 
 ### Create ZIP Archive
 
