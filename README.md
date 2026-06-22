@@ -53,7 +53,7 @@ Linux_Basics
 ├── 06_process_management.md
 ├── 07_networking_basics.md
 ├── 08_archiving_and_compression.md
-├── 09_shell_redirection.md
+├── 09_redirection_and_pipes.md
 ├── 10_text_processing.md
 ├── 11_bash_scripting.md
 ├── 12_system_monitoring.md
