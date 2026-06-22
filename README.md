@@ -63,8 +63,6 @@ Linux_Basics
 │   ├── networking_commands.md
 │   └── file_commands.md
 │
-├── screenshots
-│
 ├── README.md
 └── LICENSE
 
