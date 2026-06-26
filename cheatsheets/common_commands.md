@@ -1,4 +1,4 @@
-#01_Common Linux Commands Cheat Sheet
+# Common Linux Commands Cheat Sheet
 
 This cheat sheet contains frequently used Linux commands for quick reference. Use it as a handy guide while working on Linux systems.
 
